@@ -8,6 +8,6 @@ For this challenge, time yourself and see how quickly you can develop a solution
 
 Soon, we'll be ramping up the difficulty and utilizing a number of technologies and tools like Grunt, Node and Bower. 
 
-Resources:
-- [What's the DOM?](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+##Resources:
+  - [What's the DOM?](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
