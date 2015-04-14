@@ -2,4 +2,11 @@
   margin: 0 auto;
 }
 
-/*Put your code here*/
+header {
+  background: #000;
+}
+
+header a {
+  color: #fff;
+}
+
