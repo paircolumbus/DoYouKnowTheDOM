@@ -47,5 +47,19 @@ header nav ul li {
 .container > section {
   width: 50%;
   margin: auto;
+  margin-top: 80px;
+}
+
+section h1 {
+  border-bottom: 1px solid black;
+  padding: 5px 0px;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+p {
+  font-size: .9em;
 }
 
