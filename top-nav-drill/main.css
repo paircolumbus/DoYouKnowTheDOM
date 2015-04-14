@@ -44,3 +44,8 @@ header nav ul li {
   padding: 7px;
 }
 
+.container > section {
+  width: 50%;
+  margin: auto;
+}
+
