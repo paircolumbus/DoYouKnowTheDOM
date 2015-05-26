@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+}
+.container header {
+  background: black;
+  padding: 5px 15px;
+}
+.container header a {
+  color: white;
+  line-height: 30px;
+}
+.container header nav {
+  float: right;
+}
+.container header nav a {
+  padding-right: 10px;
+}
+.container header nav,
+.container header nav > ul,
+.container header nav > ul > li {
+  display: inline;
+}
+.container header span > a {
+  text-decoration: none;
+  font-size: 30px;
+}
+.container section {
+  width: 1000px;
+  margin: 0 auto;
+}
+.container section h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+.container footer {
+  border-top: 1px solid black;
+}
+
+/*# sourceMappingURL=sass_main.css.map */
