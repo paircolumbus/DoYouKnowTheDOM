@@ -3,3 +3,46 @@
 }
 
 /*Put your code here*/
+
+header {
+  background: black;
+  padding: 5px 15px;
+}
+
+nav,
+nav > ul,
+nav > ul > li {
+  display: inline;
+}
+
+header > nav {
+  float: right;
+}
+
+header a {
+  color: white;
+  line-height: 30px;
+}
+
+span > a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a {
+  padding-right: 10px;
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
