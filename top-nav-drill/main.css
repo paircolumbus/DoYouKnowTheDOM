@@ -1,5 +1,48 @@
+
 .container {
   margin: 0 auto;
 }
 
-/*Put your code here*/
+header {
+	background-color: black;
+	color: white;
+	padding: 20px 20px;
+}
+
+header a {
+	color: white;
+}
+
+header span a {
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	font-size: 1em;
+	list-style: none;
+	padding-left: 0;
+}
+
+nav	li {
+	float: left;
+	margin: 0 10px;
+}
+
+section {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+h1	{
+	border-bottom: 1px solid grey;
+}
+
+footer {
+	border-top: 3px solid grey;
+}
