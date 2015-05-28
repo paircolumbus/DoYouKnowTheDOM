@@ -2,4 +2,53 @@
   margin: 0 auto;
 }
 
-/*Put your code here*/
+header {
+  background-color: black;
+}
+
+header a {
+  color: white;
+}
+
+header span {
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+}
+
+header span a {
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 5px;
+  font-weight: 300;
+}
+
+.container > section {
+  width: 50%;
+  margin: auto;
+}
+
+.container > section h1 {
+    padding: 5px;
+    border-bottom: 1px solid black;
+
+}
+
+footer {
+  border-top: 2px solid gray;
+}
