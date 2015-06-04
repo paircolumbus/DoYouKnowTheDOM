@@ -3,44 +3,39 @@
 }
 
 /* Header row */
-
-header {
-  background: black;
-  display: inline-flex;
-  width: 100%;
-}
-
-header a{
+header, header a {
+  background-color: black;
   color: white;
-  display: inline;
+  /* display: block; */
+  width: 100%;
+  padding: 8px 10px 10px;
 }
-
-header span a{
+header span a {
+  text-decoration: none;
   font-size: 35px;
   font-weight: bold;
-  text-decoration: none;
+  padding-right: 23px;
 }
-
-header nav li{
+header nav {
+  float: right;
+  padding-right: 10px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
   display: inline;
-  text-align: right;
 }
-
 /* Text body */
-
-section {
-  padding-left: 100px;
-  padding-right: 100px;
+section, footer {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 section h1 {
-  padding-left: 100px;
-  padding-right: 100px;
-  border-bottom: thin solid;
+  border-bottom: solid 2px grey;
 }
 
 footer {
-  padding-left: 100px;
-  padding-right: 100px;
-  border-top: solid;
+  border-top: solid 4px grey;
 }
