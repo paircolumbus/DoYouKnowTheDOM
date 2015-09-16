@@ -2,4 +2,69 @@
   margin: 0 auto;
 }
 
-/*Put your code here*/
+* {
+  overflow: auto;
+}
+
+header, header * {
+  background-color: black;
+  color: white;
+}
+
+header span a {
+  text-decoration: none;
+  float: left;
+  margin-left: 40px;
+  padding-top: 6px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  color: white;
+  margin-right: 40px
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+h1, section, footer {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+
+section {
+  max-height: 150px;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+section p:nth-of-type(2) {
+  display: none;
+}
+
+footer {
+  margin-top: 16px;
+  padding: 16px 0 0 0;
+  border-top: 2px solid gray;
+}
+
+
+
+
