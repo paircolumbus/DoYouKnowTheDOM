@@ -3,3 +3,56 @@
 }
 
 /*Put your code here*/
+body {
+    font: sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    padding: 0.5em 0 0.5em 2em;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 200%;
+}
+header span a {
+    text-decoration: none;
+}
+
+header a, header a:visited {
+    color: #fff;
+}
+
+nav li, nav ul {
+    display: inline;
+    list-style-type: none;
+    font-size: 80%;
+    padding-left: 1em;
+}
+
+nav {
+    display: inline;
+    float: right;
+    padding: 0.5em 2em;
+}
+
+/* content */
+h1 {
+    border-bottom: solid #000 1px;
+}
+
+.container > section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+footer {
+    border-top: solid #000 1px;
+}
