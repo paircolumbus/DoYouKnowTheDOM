@@ -1,5 +1,39 @@
 .container {
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 /*Put your code here*/
+header {
+  background-color: #000;
+  font-family: sans-serif;
+  padding: 0.5em 0; }
+  header a {
+    color: #fff; }
+  header span {
+    padding: 0.5em 2em;
+    font-size: 180%;
+    font-weight: bold; }
+    header span a {
+      text-decoration: none; }
+      header span a:visited {
+        color: #fff; }
+  header nav {
+    float: right;
+    font-size: 80%; }
+    header nav ul {
+      padding-right: 1em; }
+    header nav li {
+      display: inline;
+      list-style-type: none;
+      padding-right: 1em; }
+
+.container > section {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%; }
+  .container > section h1 {
+    border-bottom: solid black 1px; }
+
+footer {
+  border-top: solid black 1px; }
+
+/*# sourceMappingURL=main.css.map */
