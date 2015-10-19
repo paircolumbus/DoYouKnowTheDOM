@@ -1,47 +1,30 @@
-.container {
-  margin: 0 auto;
-}
-
 header {
   background-color: black;
-  text-align: right;
-}
-
-header span {
-  display: inline-block;
-  padding: 10px;
-  float: left;
-}
-
-header span a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 32px;
-}
-
-header a {
-  color: white;
-}
+  text-align: right; }
+  header span {
+    display: inline-block;
+    padding: 10px;
+    float: left; }
+    header span a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 32px; }
+  header a {
+    color: white; }
 
 nav {
   display: inline-block;
-  padding-right: 30px;
-}
-
-nav li {
-  display: inline;
-  padding-right: 10px;
-}
+  padding-right: 30px; }
+  nav li {
+    display: inline;
+    padding-right: 10px; }
 
 .container > section {
   width: 33%;
-  margin: auto;
-}
+  margin: auto; }
 
 h1 {
-  border-bottom: 1px solid grey;
-}
+  border-bottom: 1px solid grey; }
 
 footer {
-  border-top: 1px solid grey;
-}
+  border-top: 1px solid grey; }
