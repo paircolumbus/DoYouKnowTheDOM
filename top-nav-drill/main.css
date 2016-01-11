@@ -1,18 +1,16 @@
-.container {
+.container
+{
   margin: 0 auto;
 }
 
 section
 {
-
   width: 60%;
   margin: 0 auto;
-  
 }
 
 section section
 {
-
   width: 100%;
   margin: 0 auto;
 }
@@ -20,12 +18,10 @@ section section
 h1
 {
   border-bottom: 1px solid grey;
-
 }
 
 header
 {
-
   background-color: black;
   height: 45px;
 }
@@ -34,6 +30,7 @@ ul
 {
   margin-top: 7px;
 }
+
 nav
 {
   float: right;
@@ -52,8 +49,8 @@ span
 
 li
 {
-    float:left;
-    list-style-type: none;
+  float:left;
+  list-style-type: none;
 }
 
 span a
@@ -64,18 +61,12 @@ span a
 
 nav ul li a
 {
-
   display: block;
   padding: 5px;
   color: white;
 }
 
-footer{
+footer
+{
   border-top: 1px solid grey;
 }
-
-/*section:nth-child(2):before {
-    content: "_______________________________";
-    color:grey;
-}*/
-/*Put your code here*/
