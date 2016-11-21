@@ -39,7 +39,8 @@ span {
   font-size: 35px;
   display: inline;
   padding: 35px; }
-  span a {
+
+span a {
     text-decoration: none; 
 }
 
