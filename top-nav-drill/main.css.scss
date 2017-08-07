@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+
+  header {
+    background: black;
+    padding: 5px 15px;
+
+    a {
+      color: white;
+      line-height: 30px;
+    }
+
+    nav {
+      float: right;
+      a {
+        padding-right: 10px;
+      }
+    }
+
+    nav,
+    nav > ul,
+    nav > ul > li {
+      display: inline;
+    }
+
+    span > a {
+      text-decoration: none;
+      font-size: 30px;
+    }
+  }
+
+  section {
+    width: 1000px;
+    margin: 0 auto;
+
+    h1 {
+      border-bottom: 1px solid black;
+      padding-bottom: 2px;
+    }
+  }
+
+  footer {
+    border-top: 1px solid black;
+  }
+}
