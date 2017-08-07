@@ -1,5 +1,57 @@
 .container {
-  margin: 0 auto;
+  margin: 0 auto; }
+
+header {
+  background: black; }
+
+nav {
+  float: right;
+  margin-top: 10px;
+  margin-right: 60px;
 }
 
-/*Put your code here*/
+a {
+  color: white;
+}
+
+h1 {
+  border-bottom-style: solid; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  width: 60px;
+  text-align: center;
+  vertical-align: right;
+  display: inline; 
+}
+
+li {
+  display: inline;
+  vertical-align: right;
+  padding: 10px; 
+}
+
+
+span {
+  font-style: bold;
+  font-size: 35px;
+  display: inline;
+  padding: 35px; }
+
+span a {
+    text-decoration: none; 
+}
+
+section {
+  vertical-align: middle;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; 
+}
+
+footer {
+  border-top-style: solid; 
+}
