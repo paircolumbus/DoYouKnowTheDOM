@@ -3,3 +3,61 @@
 }
 
 /*Put your code here*/
+
+header {
+	height: 50px;
+	top: 25px;
+	background: black;
+	width: 100%;
+}
+
+header span {
+	font-size: 36px;
+}
+
+span {
+	font: Tahoma;
+	font-color: white;
+}
+
+span a {
+	text-decoration: none;
+	font-size: 24px;
+	padding-left: 25px;
+}
+
+a {
+	color: white;
+}
+
+nav {
+	float: right;
+	padding-right: 25px;
+}
+
+li {
+	display: inline;
+	color: white;
+}
+
+ul li a {
+	padding: 5px;
+}
+
+section {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	border-bottom: solid thin gray;
+	padding-bottom: 10px;
+}
+
+section section p:nth-child(3) {
+	display: none;
+}
+
+footer {
+	border-top: solid thin gray;
+}
