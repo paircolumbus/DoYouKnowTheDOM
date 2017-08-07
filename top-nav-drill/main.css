@@ -1,5 +1,68 @@
 .container {
   margin: 0 auto;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #000;
+}
+span a{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
 
-/*Put your code here*/
+nav{
+  float: right;
+  padding-right: 30px;
+}
+
+ul li{
+  color: #fff;
+  padding-left: 50px;
+  font-size: 24px;
+  display: inline;
+}
+
+
+a:visited{
+  color: #fff;
+}
+
+section{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+section section{
+  margin: 0;
+  padding: 0px;
+  width: auto;
+}
+
+section:nth-child(4){
+  padding-bottom: 15px;
+  border-bottom: 2px solid #666;
+}
+
+p{
+  margin: auto;
+  display: inline;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #666;
+}
+
+footer{
+  padding-top: 10px;
+}
