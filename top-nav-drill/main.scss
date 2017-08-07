@@ -1,0 +1,60 @@
+.container {
+  margin: 0 auto;
+}
+
+/*Put your code here*/
+$header_color: #fff;
+$header_bg: #000;
+
+$text_width: 50%;
+$text_margin: (100% - $text_width)/2;
+$separator: solid black 1px;
+
+header {
+    background-color: $header_bg;
+    font-family: sans-serif;
+    padding: 0.5em 0;
+    a {
+        color: $header_color;
+    }
+    span {
+        padding: 0.5em 2em;
+        font: {
+            size: 180%;
+            weight: bold;
+        }
+        a {
+            text-decoration: none;
+            &:visited {
+                color: $header_color;
+            }
+        }
+    }
+
+    nav {
+        float: right;
+        font-size: 80%;
+        ul {
+            padding-right: 1em;
+        }
+        li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 1em;
+        }
+    }
+}
+
+.container > section {
+    width: $text_width;
+    margin-left: $text_margin;
+    margin-right: $text_margin;
+    
+    h1 {
+        border-bottom: $separator;
+    }
+}
+footer {
+    border-top: $separator;
+}
+
