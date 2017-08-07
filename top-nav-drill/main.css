@@ -1,5 +1,72 @@
-.container {
+.container
+{
   margin: 0 auto;
 }
 
-/*Put your code here*/
+section
+{
+  width: 60%;
+  margin: 0 auto;
+}
+
+section section
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1
+{
+  border-bottom: 1px solid grey;
+}
+
+header
+{
+  background-color: black;
+  height: 45px;
+}
+
+ul
+{
+  margin-top: 7px;
+}
+
+nav
+{
+  float: right;
+  margin-right: 25px;
+}
+
+span
+{
+  text-decoration: none;
+  font-size: 28px;
+  color:white;
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 25px;
+}
+
+li
+{
+  float:left;
+  list-style-type: none;
+}
+
+span a
+{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a
+{
+  display: block;
+  padding: 5px;
+  color: white;
+}
+
+footer
+{
+  border-top: 1px solid grey;
+}
