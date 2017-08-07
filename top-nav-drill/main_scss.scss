@@ -1,0 +1,45 @@
+$margin:    100px;
+$line:      solid grey;
+
+.container {
+  margin: 0 auto;
+}
+
+/* Header row */
+header {
+  background-color: black;
+  width: 100%;
+  padding: 8px 10px 10px;
+  a {
+    color: white;
+  }
+  span a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    padding-right: 23px;
+  }
+  nav {
+    float: right;
+    padding-right: 10px;
+    ul {
+      list-style-type: none;
+      li {
+        display: inline;
+      }
+    }
+  }
+}
+
+/* Text body */
+section {
+  margin: $margin $margin;
+  h1 {
+    border-bottom: 2px $line;
+  }
+}
+
+footer {
+  margin: $margin $margin;
+  border-top: 4px $line;
+}
