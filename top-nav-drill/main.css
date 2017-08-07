@@ -3,3 +3,65 @@
 }
 
 /*Put your code here*/
+
+/* header */
+header {
+  /* colors */
+  background-color: #000;
+
+  /* font styles */
+  letter-spacing: 0.125em;
+
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+header a {
+  color: #fff;
+}
+
+header > span {
+  /* font styles */
+  font-size: 1.75em;
+  font-weight: bold;
+
+  /* layout */
+  margin: 0 1rem;
+}
+
+header > span a {
+  text-decoration: none;
+}
+
+
+/* navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+
+/* content */
+.container > section {
+  max-width: 50rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+h1 {
+  border-bottom: 0.0625rem solid #000;
+  padding-bottom: 0.25em;
+}
+
+/* footer */
+footer {
+  border-top: 0.0625rem solid #000;
+}
