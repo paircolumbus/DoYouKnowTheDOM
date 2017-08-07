@@ -3,3 +3,48 @@
 }
 
 /*Put your code here*/
+
+header {
+	background-color: black;
+	padding: 10px;
+}
+
+a {
+	color: white;
+}
+
+section {
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+span > a {
+	font-size: 2em;  		
+	font-weight: bold;
+	text-decoration: none;
+	margin: 40px, 0px, 40px, 0px;
+}
+
+nav {
+	float: right;
+	margin-top: center; 
+	margin-bottom: center;
+}
+
+li {
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline;
+}
+
+h1 {
+	border-bottom: 1.5px solid black;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+footer {
+	border-top: 1.5px solid black;
+	margin-left: 280px;
+	margin-right: 280px;
+}
