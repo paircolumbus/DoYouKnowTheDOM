@@ -3,3 +3,34 @@
 }
 
 /*Put your code here*/
+header {
+  background-color: black;
+  padding: 2% 4%;
+}
+
+header > span,
+header > nav {
+  display: inline-block;
+}
+
+header > span > a {
+  text-decoration: none;
+  font-size: 32px;
+}
+
+header > nav {
+  float: right;
+}
+
+a {
+  color: white;
+}
+
+li {
+  display: inline;
+  color: white;
+}
+
+#parent {
+  padding: 0 10%;
+}
