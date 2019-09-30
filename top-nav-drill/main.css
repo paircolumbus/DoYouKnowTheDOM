@@ -3,3 +3,41 @@
 }
 
 /*Put your code here*/
+header {
+  background-color: black;
+  font-color: white;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1;
+  border-bottom: 3px solid black;
+}
+
+h2 {
+  font-size: 1em;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
+  font-size: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+header li {
+  float: right;
+  font-size: 20px;
+  background-color: black;
+  margin: 0 0 3px 0;
+}
+
+a:link {
+  color: white;
+}
+
+footer {
+  border-top: 2px solid black;
+}
