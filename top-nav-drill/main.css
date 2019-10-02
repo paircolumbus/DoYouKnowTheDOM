@@ -2,4 +2,59 @@
   margin: 0 auto;
 }
 
-/*Put your code here*/
+.container > header {
+	background: black;
+	clear: both;
+	overflow: auto;
+}
+
+.container > header > span {
+	font-size: 20pt;
+	float: left;
+	font-weight: bold;
+	margin: 0.5em 1em;
+}
+
+.container > header > nav ul {
+	list-style-type: none;
+	float: right;
+	margin-right: 1em;
+}
+
+.container > header > nav ul li {
+	display: inline-block;
+	margin: 0.25em;
+}
+
+.container > header a {
+	color: white;
+	text-decoration: none;
+}
+
+.container > section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container > section > h1 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.15em;
+}
+
+.container > section > footer {
+	width: 100%;
+	border-top: 1px solid #ccc;
+	padding-top: 0.15em;
+}
+
+.container > section > section {
+	margin-bottom: 1.5em;
+}
+
+.container > section > section > h2 {
+	margin: 0.5em 0;
+}
+
+.container > section > section > p {
+	margin: 0.5em 0;
+}
